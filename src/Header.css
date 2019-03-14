@@ -1,0 +1,59 @@
+/* HEADER */
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav ul li {
+  padding: 50px;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  text-decoration-skip: ink;
+}
+
+nav {
+  position: relative;
+  height: 10%;
+  padding: 1em;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+nav ul li {
+  float: right;
+}
+
+nav a {
+  color: #fff;
+}
+
+/* HEADER TITLE */
+
+.title {
+  font-weight: 900;
+  font-size: 3em;
+  text-align: center;
+  color: #fff;
+}

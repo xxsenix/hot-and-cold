@@ -1,0 +1,13 @@
+.feedback {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: #cc324b;
+  height: 75px;
+  display: flex;
+}
+
+.feedback h2 {
+  margin: auto;
+  font-weight: 300;
+  font-size: 1.5em;
+}

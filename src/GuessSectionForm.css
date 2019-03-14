@@ -1,0 +1,49 @@
+.guessSectionForm {
+  background: #394264;
+  height: 215px;
+}
+
+.guessSectionForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.guessSectionForm h3 {
+  font-size: 30px;
+  color: black;
+}
+
+.text,
+.button {
+  margin: 15px auto;
+  width: 250px;
+  height: 45px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.text {
+  background: #1f253d;
+  opacity: 0.5;
+}
+
+.text::placeholder {
+  text-align: center;
+  font-size: 30px;
+}
+
+.text:focus {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.button {
+  background: #1f253d;
+  color: #95a5a6;
+  font-size: 30px;
+}
+
+.guessNum {
+  color: #f39c12;
+}

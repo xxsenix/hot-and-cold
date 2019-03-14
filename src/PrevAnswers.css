@@ -1,0 +1,17 @@
+.guessSectionPrevAnswers {
+  background: #11a8ab;
+  height: 85px;
+}
+
+.prevAnswers {
+  color: black;
+  overflow: auto;
+  height: 100%;
+  display: flex;
+}
+
+.prevAnswers li {
+  display: inline;
+  margin: auto 3px;
+  color: white;
+}

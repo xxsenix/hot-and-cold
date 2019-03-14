@@ -1,0 +1,9 @@
+/* GUESS SECTION */
+
+.guessSection {
+  width: 375px;
+  height: 375px;
+  background: white;
+  margin: 40px auto;
+  border-radius: 10px;
+}
